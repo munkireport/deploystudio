@@ -43,6 +43,10 @@ class Deploystudio_model extends \Model
         $this->serial_number = $serial;
         
         $this->module_dir = dirname(__FILE__);
+        
+        // Add local config
+        configAppendFile(__DIR__ . '/config.php');
+
     }
 
      /**
