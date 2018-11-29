@@ -19,5 +19,5 @@ return [
   'deploystudio_enable' => env('DEPLOYSTUDIO_ENABLE', false),
   'deploystudio_server' => env('DEPLOYSTUDIO_SERVER'),// no trailing slash
   'deploystudio_username' => env('DEPLOYSTUDIO_USERNAME'),
-  'deploystudio_password'] => env('DEPLOYSTUDIO_PASSWORD'),
+  'deploystudio_password' => env('DEPLOYSTUDIO_PASSWORD'),
 ];
